@@ -6,15 +6,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-div span {
-  font-size: 13px;
-}
-
-input {
-  margin: 5px 0;
-  padding: 5px 10px;
-}
-
 .form {
   border: 2px solid rgb(128, 127, 127);
   border-radius: 1em;
@@ -24,6 +15,13 @@ input {
   background-color: rgb(207, 206, 206);
   padding: 0 20px;
 }
+.form span {
+  font-size: 13px;
+}
+.form input{
+  margin: 5px 0;
+  padding: 5px 5px;
+}
 
 .names-form {
   display: flex;
@@ -31,13 +29,26 @@ input {
   justify-content: space-between;
   padding: 5px 0;
 }
+
 .names-form input {
-  max-width: 41%;
+  max-width: 43%;
 }
+
 .flex {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+}
+
+.checkbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.checkbox input{
+  margin-right: 10px;
 }
 
 .btn {
